@@ -27,3 +27,20 @@ images_thumbnail.forEach(image => {
   });
 });
 
+const plus = document.querySelector('.image-plus');
+const classNumber = document.querySelector('.number');
+const minus = document.querySelector('.image-minus');
+let number = Number(classNumber.innerHTML);
+plus.addEventListener('click', (e) => {
+  number++;
+  classNumber.innerHTML = String(number);
+})
+
+minus.addEventListener('click', (e) => {
+  if (number > 0){
+    number--;
+    classNumber.innerHTML = String(number);
+  }
+})
+
+

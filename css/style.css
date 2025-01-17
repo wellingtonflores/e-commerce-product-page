@@ -53,12 +53,12 @@ hr {
   border-top: 1px solid #ccc;
 }
 
-.content {
+.content-image {
   width: 500px;
   margin: 100px 100px 0 50px;
 }
 
-.content img {
+.content-image img {
   width: 100%;
   height: 100%;
   border-radius: 5%;
@@ -86,6 +86,106 @@ hr {
 .mouseover-img {
   opacity: 0.5;
 }
+
+.content {
+  display: flex;
+}
+
+.content-text {
+  margin: 150px 0 0 50px;
+}
+
+.company {
+  color: #939393;
+  font: bolder 14px "Roboto", sans-serif;
+}
+
+.title {
+  font: bolder 50px "Roboto", sans-serif;
+  width: 600px;
+}
+
+.text {
+  font: 17px "Roboto", sans-serif;
+  width: 500px;
+  color: #797777;
+}
+
+.price-discount-percentage {
+  display: flex;
+  height: 50px;
+}
+
+.price {
+  font: bolder 25px "Roboto", sans-serif;
+  margin-bottom: -5px;
+  padding-right: 10px;
+}
+
+.discount-percentage {
+  font: bolder 15px "Roboto", sans-serif;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.discount {
+  font: bolder 17px "Roboto", sans-serif;
+  color: #696969;
+  text-decoration: line-through;
+  margin-bottom: 50px;
+}
+
+.container-count {
+  display: flex;
+  background-color: rgba(102, 110, 141, 0.11);
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.container-count button {
+  border: none;
+  background-color: transparent;
+}
+
+.number {
+  width: 100px;
+  text-align: center;
+  font: bolder 17px "Roboto", sans-serif;
+}
+
+.idk {
+  display: flex;
+}
+
+.idk .add-to-cart {
+  background-color: #FF7E1B;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.idk .add-to-cart p {
+  font: bolder 15px "Roboto", sans-serif;
+}
+
+.add-to-cart img {
+  padding-right: 20px;
+  width: 20px;
+}
+
+
+
 
 
 
